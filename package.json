@@ -1,0 +1,14 @@
+{
+  "name": "number2word_hun",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Iván János Benedek <benedek@duelbox.com>",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^6.1.0"
+  }
+}
