@@ -1,6 +1,6 @@
 {
   "name": "number2word_hun",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Converting a number to a word by following the Hungarian language rules.",
   "repository": {
     "type": "git",
