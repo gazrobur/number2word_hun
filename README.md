@@ -1,19 +1,31 @@
-# Installation
+## Installing
+
+---
 
 Using npm:
 
-```
-$ npm i -g npm
+```console
 $ npm i --save number2word_hun
 ```
+## Example
 
-In Node.js:
+---
+### note: Node.js usage:
 
+```typescript
+// Load the package.
+import { numberToWordHun } = from 'number2word_hun';
+
+// Convert number to words.
+const positiveNum: string = numberToWordHun(200);
+// kettőszáz
+
+const negativeNum: string = numberToWordHun(-200);
+// mínusz kettőszáz
 ```
-// Load the full build.
-var number = require("number2word_hun");
 
-// Converting numbers to words
-var str = number.convert(200); // kettőszáz
+## License
 
-```
+---
+
+[MIT](LICENSE)
