@@ -6,12 +6,17 @@
     "type": "git",
     "url": "git+https://github.com/gazrobur/number2word_hun.git"
   },
-  "main": "src/index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "tsc": "tsc",
+    "build": "tsc",
     "test": "mocha -r ts-node/register tests/**/*.test.ts",
-    "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test"
+    "coverage": "nyc npm test"
   },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "keywords": [
     "convert",
     "number",
